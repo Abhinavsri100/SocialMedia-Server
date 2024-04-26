@@ -21,7 +21,7 @@ app.use(express.json({ limit: "10mb" }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://social-media-nine-beta.vercel.app",
+    origin: "https://social-media-sooty-six.vercel.app",
     credentials: true,
   })
 );
