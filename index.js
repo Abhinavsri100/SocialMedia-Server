@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "social-media-zmth.vercel.app",
+    origin: "social-media-kappa-smoky.vercel.app",
   })
 );
 //morgan gives the api that we have just hit
