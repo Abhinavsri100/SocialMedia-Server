@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin: "social-media-zmth.vercel.app",
   })
 );
 //morgan gives the api that we have just hit
